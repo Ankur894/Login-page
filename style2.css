@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-width: 100vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url(Art\ Facu;ty.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    
+    
+}
+.container{
+    width: 250px;
+    height: 300px;
+    border: none;
+    box-shadow: 1px 1px 2px rgb(60, 57, 57);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    color: white;
+    background-color: rgb(6, 6, 200);
+    /* background-image: url(UoA.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center; */
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size:large;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.harder form{
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input{
+    width: 200px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(45, 45, 164);
+    box-shadow: 1px 2px 3px black;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+.footer button{
+    width: 70px;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: rgb(174, 150, 121);
+
+}
